@@ -19,20 +19,15 @@ import Contact from "../components/contact"
 function Navbar() {
   return (
     <div>
-      <div>
+      <div class="text-responsive">
         <nav
           id="navbar-example2"
-          class="navbar navbar-light fixed-top bg-light px-3"
+          class="navbar navbar-light fixed-top bg-light px-.5"
         >
           <a class="navbar-brand" href="#Home">
             Holy City Bethesda Church
           </a>
           <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link" href="#Home">
-                Home
-              </a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#About">
                 About

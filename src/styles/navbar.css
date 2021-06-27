@@ -1,0 +1,10 @@
+.text-responsive{
+    font-size: calc(100% + lvw + lvh)
+}
+.navbar-brand{
+    font-size: 1vw
+}
+.nav-item{
+    font-size: vw
+    
+}
