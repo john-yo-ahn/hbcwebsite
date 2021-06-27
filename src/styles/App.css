@@ -23,6 +23,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-body {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: center; */
+  /* justify-content: top; */
+  font-size: calc(10px + 1vmin);
+  /* color: white; */
+  width: 90%
+}
+
 
 .App-link {
   color: #61dafb;
