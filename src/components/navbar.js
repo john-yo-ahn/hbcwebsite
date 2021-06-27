@@ -18,71 +18,73 @@ import Contact from "../components/contact"
 
 function Navbar() {
   return (
-    <div>
-      <div class="text-responsive">
-        <nav
-          id="navbar-example2"
-          class="navbar navbar-light fixed-top bg-light px-.5"
+    <body>
+      <div>
+        <div class="text-responsive">
+          <nav
+            id="navbar-example2"
+            class="navbar navbar-light fixed-top bg-light px-.5"
+          >
+            <a class="navbar-brand" href="#Home">
+              Holy City Bethesda Church
+            </a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#About">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Greeting">
+                  Greeting
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Sermon">
+                  Sermon
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Donations">
+                  Donations
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          data-bs-spy="scroll"
+          data-bs-target="#navbar-example2"
+          data-bs-offset="0"
+          class="scrollspy-example"
+          tabindex="0"
         >
-          <a class="navbar-brand" href="#Home">
-            Holy City Bethesda Church
-          </a>
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link" href="#About">
-                About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Greeting">
-                Greeting
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Sermon">
-                Sermon
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Donations">
-                Donations
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div
-        data-bs-spy="scroll"
-        data-bs-target="#navbar-example2"
-        data-bs-offset="0"
-        class="scrollspy-example"
-        tabindex="0"
-      >
-        <div id="Home">
-          <Home />
-        </div>
-        <div id="About">
-          <About />
-        </div>
-        <div id="Greeting">
-          <Greeting />
-        </div>
-        <div id="Sermon">
-          <Sermon />
-        </div>
-        <div id="Donations">
-          <Donations />
-        </div>
-        <div id="Contact">
-          <Contact />
+          <div id="Home">
+            <Home />
+          </div>
+          <div id="About">
+            <About />
+          </div>
+          <div id="Greeting">
+            <Greeting />
+          </div>
+          <div id="Sermon">
+            <Sermon />
+          </div>
+          <div id="Donations">
+            <Donations />
+          </div>
+          <div id="Contact">
+            <Contact />
+          </div>
         </div>
       </div>
-    </div>
+    </body>
   );
 }
 

@@ -6,6 +6,7 @@ function About() {
     <div className="App">
       <header className="App-header">
         <h1>About</h1>
+        <p></p>
         <p class="App-body">
           The navbar will stick to the top when you reach its scroll position.
           Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
