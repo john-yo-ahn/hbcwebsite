@@ -18,6 +18,9 @@ function Contact() {
           Learn React
         </a> */}
         <h1>Contact</h1>
+        <script type="text/javascript">
+            {console.log("contact page reached!")}
+        </script>
       </header>
     </div>
   );

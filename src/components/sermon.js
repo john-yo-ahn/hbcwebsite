@@ -2,6 +2,8 @@ import * as React from "react";
 import "../styles/App.css";
 
 function Sermon() {
+  let reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+
   return (
     <div className="App">
       <header className="App-header">
@@ -30,15 +32,12 @@ function Sermon() {
         <p></p>
         <p></p>
         <iframe
-          width="40%"
-          height="500"
+          width="45%"
+          height="450"
           src="https://www.youtube.com/embed/+lastest?list=UUnjQ70k5-nBh-kDZxMkDpxA"
           frameborder="0"
           allowfullscreen
         ></iframe>
-        <br />
-
-        <br />
       </header>
     </div>
   );
