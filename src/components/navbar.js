@@ -23,10 +23,10 @@ function Navbar() {
         <div class="text-responsive">
           <nav
             id="navbar-example2"
-            class="navbar navbar-light fixed-top bg-light px-.5"
+            class="navbar navbar-light navbar-inverse fixed-top bg-light px-.5"
           >
             <a class="navbar-brand" href="#Home">
-              Holy City Bethesda Church
+              Holycity Bethesda Fullgospel Church
             </a>
             <ul class="nav nav-pills">
               <li class="nav-item">

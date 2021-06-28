@@ -18,6 +18,27 @@ function Sermon() {
           Learn React
         </a> */}
         <h1>Sermon</h1>
+        {/* <iframe
+          style="max-width: 480px"
+          width="100%"
+          height="360"
+          src="http://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=user_uploads&list=UCnjQ70k5-nBh-kDZxMkDpxA"
+          frameborder="0"
+          allowfullscreen
+        ></iframe> */}
+        <p></p>
+        <p></p>
+        <p></p>
+        <iframe
+          width="40%"
+          height="500"
+          src="https://www.youtube.com/embed/+lastest?list=UUnjQ70k5-nBh-kDZxMkDpxA"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <br />
+
+        <br />
       </header>
     </div>
   );
